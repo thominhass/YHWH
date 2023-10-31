@@ -1,0 +1,26 @@
+Primeiro, é necessário instalar o Node.js no computador, pois o React requer ele. Faça o download e instale a versão recomendada do Node.js em https://nodejs.org/en/download/.
+
+Após a instalação do Node.js, abra o terminal e verifique se o Node.js e o npm (gerenciador de pacotes do Node.js) estão instalados corretamente executando os seguintes comandos:
+
+Download
+Copy code
+node -v
+npm -v
+Em seguida, instale o CLI (Command Line Interface) do Create React App executando o seguinte comando no terminal:
+Download
+Copy code
+npm install -g create-react-app
+Agora que o CLI do Create React App está instalado, você pode criar um novo projeto React. Para fazer isso, execute o seguinte comando no terminal, substituindo "my-app" pelo nome que deseja dar ao seu projeto:
+Download
+Copy code
+create-react-app my-app
+O terminal criará um novo diretório com o nome do projeto e instalará todas as dependências necessárias. Quando a instalação for concluída, você poderá ver o comando "To run the app, navigate to the directory and run 'npm start'." No entanto, antes de executar esse comando, você precisa navegar até o diretório do projeto executando o seguinte comando:
+Download
+Copy code
+cd my-app
+Agora que você está no diretório do projeto, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+Download
+Copy code
+npm start
+Acesse o navegador e vá para "http://localhost:3000/" para ver o aplicativo React em execução.
+Agora você tem um ambiente de desenvolvimento React pronto para uso. Ao fazer alterações no código-fonte do projeto, o navegador atualizará automaticamente para refletir essas alterações.
