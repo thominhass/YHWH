@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Ponto Turístico: Ibirapuera</title>
+</head>
+<body>
+
+ <header>
+    <h1>Ibirapuera: um verdadeiro diamante da cidade</h1>
+ </header>
+
+ <main>
+    <section>
+      <h2>Visão Geral</h2>
+      <p>O Parque Ibirapuera é um dos principais pontos turísticos de São Paulo, oferecendo um vasto complexo verde que reúne diversos atrativos naturais e culturais.</p>
+    </section>
+
+    <section>
+      <h2>Fotos</h2>
+      <img src="ibirapuera.jpg" alt="Ibirapuera">
+      <img src="lago.jpg" alt="Lago da Ibirapuera">
+      <img src="esplanada.jpg" alt="Esplanada do Parque Ibirapuera">
+    </section>
+
+    <section>
+      <h2>Dicas</h2>
+      <ul>
+        <li>O Parque Ibirapuera possui ciclovia, parques infantis, lanchonetes e espaços para eventos e apresentações.</li>
+        <li>No Parque Ibirapuera, você pode realizar caminhadas, corridas, alugar skates, pedal ou bicicleta.</li>
+        <li>No início do verão, é comum ocorrerem eventos musicais gratuitos e a programação cultural é variada.</li>
+      </ul>
+    </section>
+ </main>
+
+ <footer>
+    <p>&copy; 2022 Ponto Turístico Ibirapuera. Todos os direitos reservados.</p>
+ </footer>
+
+</body>
+</html>
