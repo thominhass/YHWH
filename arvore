@@ -1,0 +1,67 @@
+class Node:
+    def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.val = key
+
+
+def insert(root, key):
+    if root is None:
+        return Node(key)
+    else:
+        if root.val < key:
+            root.right = insert(root.right, key)
+        else:
+            root.left = insert(root.left, key)
+    return root
+
+
+def inorder(root):
+    if root:
+        inorder(root.left)
+        print(root.val, end=" ")
+        inorder(root.right)
+
+
+def minValueNode(node):
+    current = node
+    while(current.left is not None):
+        current = current.left
+    return current
+
+
+def deleteNode(root, key):
+    if root is None:
+        return root
+    if key < root.val:
+        root.left = deleteNode(root.left, key)
+    elif(key > root.val):
+        root.right = deleteNode(root.right, key)
+    else:
+        if root.left is None:
+            temp = root.right
+            root = None
+            return temp
+        elif root.right is None:
+            temp = root.left
+            root = None
+            return temp
+        temp = minValueNode(root.right)
+        root.val = temp.val
+        root.right = deleteNode(root.right, temp.val)
+    return root
+
+
+# Lista1 = 45,20,30,60,81,97,100,7,8,4 
+raiz = None
+for num in lista1:
+    raiz = insert(raiz, num)
+inorder(raiz)
+print()
+
+# Lista2 = 15,6,18,3,7,16,20,4 
+raiz = None
+for num in lista2:
+    raiz = insert(raiz, num)
+inorder(raiz)
+print()
