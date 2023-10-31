@@ -1,0 +1,30 @@
+class AnimalDeEstimacao:
+    def __init__(self, nome_animal, raca_animal, idade_animal, nome_responsavel, telefone_responsavel):
+        self.nome_animal = nome_animal
+        self.raca_animal = raca_animal
+        self.idade_animal = idade_animal
+        self.nome_responsavel = nome_responsavel
+        self.telefone_responsavel = telefone_responsavel
+
+    def solicitar_dados(self):
+        self.nome_animal = input("Digite o nome do animal: ")
+        self.raca_animal = input("Digite a raça do animal: ")
+        self.idade_animal = int(input("Digite a idade do animal: "))
+        self.nome_responsavel = input("Digite o nome do responsável: ")
+        self.telefone_responsavel = input("Digite o telefone do responsável: ")
+
+    def exibir_cadastro(self):
+        print("Cadastro do Animal de Estimação:")
+        print("Nome do Animal: ", self.nome_animal)
+        print("Raça do Animal: ", self.raca_animal)
+        print("Idade do Animal: ", self.idade_animal)
+        print("Nome do Responsável: ", self.nome_responsavel)
+        print("Telefone do Responsável: ", self.telefone_responsavel)
+
+
+def cadastrar_animal():
+    animal = AnimalDeEstimacao("", "", 0, "", "")
+    animal.solicitar_dados()
+    animal.exibir_cadastro()
+
+cadastrar_animal()
