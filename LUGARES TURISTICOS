@@ -1,0 +1,8 @@
+<!DOCTYPE html> <html lang="pt"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Lugares Turísticos da Europa</title> <style> body { font-family: Arial, sans-serif; }
+.card { border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin: 10px; width: 250px; text-align: center; }
+
+img { max-width: 100%; height: auto; } </style>
+
+</head> <body> <h1>Descubra os mais incríveis lugares turísticos da Europa</h1> <div class="card"> <h2>Veneza, Itália</h2> <img src="veneza.jpg" alt="Veneza"> <p>As praias de Veneza, conhecidas como Cala di Volpe, estão entre as mais famosas e aclamadas do mundo.</p> </div> <div class="card"> <h2>Paris, França</h2> <img src="paris.jpg" alt="Paris"> <p>Paris é a capital da moda, gastronomia e cultura, e seu icônico Arco do Triunfo é uma maravilha da arquitetura.</p> </div> <div class="card"> <h2>Praga, República Tcheca</h2> <img src="praga.jpg" alt="Praga"> <p>Praga, a "cidade de dez mil espirilos", oferece uma riqueza histórica e arquitetônica única.</p> </div> <div class="card"> <h2>Roma, Itália</h2> <img src="
+
+
